@@ -1,2 +1,5 @@
-package org.ddd.ddddomain.repository;public class HiDomainRepository {
+package org.ddd.ddddomain.repository;
+
+public interface HiDomainRepository {
+    String sayHi(String name);
 }

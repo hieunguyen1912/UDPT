@@ -1,2 +1,4 @@
-package org.ddd.dddinfrastructure.config;public class RedisConfig {
+package org.ddd.dddinfrastructure.config;
+
+public class RedisConfig {
 }
