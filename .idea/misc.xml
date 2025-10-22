@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ddd-application/pom.xml" />
         <option value="$PROJECT_DIR$/ddd-domain/pom.xml" />
         <option value="$PROJECT_DIR$/identity-service/pom.xml" />
+        <option value="$PROJECT_DIR$/profile-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,5 +26,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="ms-21 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
