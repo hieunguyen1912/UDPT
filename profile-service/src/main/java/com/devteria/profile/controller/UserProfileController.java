@@ -6,6 +6,7 @@ import com.devteria.profile.service.UserProfileService;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +22,7 @@ public class UserProfileController {
         return userProfileService.getUserProfileById(id);
     }
 
+    @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/users")
     List<ProfileResponse> getAllProfiles() {
         return userProfileService.getAllProfiles();
