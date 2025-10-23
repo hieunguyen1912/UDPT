@@ -1,4 +1,4 @@
-package com.devteria.profile.configuration;
+package org.ddd.notificationservice.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
